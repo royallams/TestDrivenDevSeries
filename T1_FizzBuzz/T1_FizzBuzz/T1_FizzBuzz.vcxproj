@@ -78,13 +78,13 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>E:\merge_share\GithubRepo\TDDSeries\googletest\googletest\include;E:\merge_share\GithubRepo\TDDSeries\googletest\googletest\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\merge_share\GithubRepo\TDDSeries\googletest\BUILD\lib\Release;E:\merge_share\GithubRepo\TDDSeries\googletest\BUILD\lib\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\merge_share\GithubRepo\TestDrivenDevSeries\googletest\googletest\include;E:\merge_share\GithubRepo\TDDSeries\googletest\googletest\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\merge_share\GithubRepo\\TestDrivenDevSeries\googletest\BUILD\lib\Release;E:\merge_share\GithubRepo\TDDSeries\googletest\BUILD\lib\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>E:\merge_share\GithubRepo\TDDSeries\googletest\googletest\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
-    <LibraryPath>E:\merge_share\GithubRepo\TDDSeries\googletest\BUILD\lib\Release;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <IncludePath>E:\merge_share\GithubRepo\TestDrivenDevSeries\googletest\googletest\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>E:\merge_share\GithubRepo\\TestDrivenDevSeries\googletest\BUILD\lib\Release;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
